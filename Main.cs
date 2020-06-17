@@ -24,7 +24,7 @@ namespace XLSPublicServers
             gameplayServer = server;
             if (File.Exists(Directory.GetCurrentDirectory() + Path.DirectorySeparatorChar.ToString() + "ServerConfig.json"))
             {
-                JsonConvert.DeserializeObject<XLMultiplayerServer.Server>(File.ReadAllText(Directory.GetCurrentDirectory() + Path.DirectorySeparatorChar.ToString() + "ServerConfig.json"));
+                JsonConvert.DeserializeObject<Main>(File.ReadAllText(Directory.GetCurrentDirectory() + Path.DirectorySeparatorChar.ToString() + "ServerConfig.json"));
             }
             else
             {
