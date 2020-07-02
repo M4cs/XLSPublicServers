@@ -1,5 +1,7 @@
 {
   "Name": "Macs' XLSPublicSevers Plugin",
   "AssemblyName": "XLSPublicServers.dll",
-  "StartupMethod": "XLSPublicServers.Main:Load"
+  "StartupMethod": "XLSPublicServers.Main:Load",
+  "ServerVersion": "0.9.1",
+  "DependencyZIP":  ""
 }
